@@ -1,0 +1,199 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (32 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                         Transient Analysis of 8                          ***
+***                           25.12.2021 14:34:49                            ***
+********************************************************************************
+Limits
+======
+Maximum Run Time           10u
+Output Start Time (tstart) 0u
+Maximum Time Step          0.01u
+Number of Points           5100
+Temperature                Linear 27
+Retrace Runs               1
+Run Options                Normal
+State Variables            Zero
+Operating Point            On
+Operating Point Only       Off
+Auto Scale Ranges          On
+Accumulate Plots           Off
+Fixed Time Step            Off
+Periodic Steady State      Off
+Ignore Expression Errors   Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             5.000   2            89.996m  3             5.000  
+4             2.500   5            89.996m 
+
+DC Operating Point Digital States
+=================================
+Node     State Node     State
+6        0     7        0    
+
+
+Operating Point for Devices of Type Mosfet NMOS
+===============================================
+Instance:               M2            M3
+Using model:        IRF540        IRF540
+
+Capacitance Terms:
+CBD                 1.146n        2.328n
+CBS                 0.000         0.000 
+CGSOVL             10.272p       10.272p
+CGDOVL            942.215p      942.215p
+CGBOVL              0.000         0.000 
+CGS                 0.000         0.000 
+CGD                 0.000         0.000 
+CGB                 0.000         0.000 
+
+Conductance Terms:
+GM                  0.000         0.000 
+GDS                 0.000         0.000 
+GMBS                0.000         0.000 
+
+Current Terms:
+ID                 -6.250u       -6.250u
+
+Voltage Terms:
+VGS                -4.910        -2.410 
+VDS                -2.500        -2.500 
+VBS                -5.000        -2.500 
+VGB                89.996m       89.996m
+VGD                -2.410        89.996m
+VDB                 2.500         0.000 
+VTH                 3.168         3.168 
+VDSAT               0.000         0.000 
+
+Power DC Terms:
+PD                 15.625u       15.625u
+PS                  0.000         0.000 
+
+DC Pin Currents:
+Ig                  0.000         0.000 
+Id                 -6.250u       -6.250u
+Is                  6.250u        6.250u
+Ib                 -7.520p       -2.510p
+
+Condition:
+State                  OFF           OFF
+
+Device Variables:
+m                   1.000         1.000 
+l                   0.000         0.000 
+w                   0.000         0.000 
+ad                  0.000         0.000 
+as                  0.000         0.000 
+pd                  0.000         0.000 
+ps                  0.000         0.000 
+nrd                 0.000         0.000 
+nrs                 0.000         0.000 
+nrb                 0.000         0.000 
+nrg                 0.000         0.000 
+vds                 0.000         0.000 
+vgs                 0.000         0.000 
+vbs                 0.000         0.000 
+
+
+
+Operating Point for Devices of Type Mosfet PMOS
+===============================================
+Instance:               M1            M4
+Using model:       IRF9540       IRF9540
+
+Capacitance Terms:
+CBD                 2.556n        2.556n
+CBS                 0.000         0.000 
+CGSOVL            266.918p      266.918p
+CGDOVL            885.030p      885.030p
+CGBOVL              0.000         0.000 
+CGS                 0.000         0.000 
+CGD                 0.000         0.000 
+CGB                 0.000         0.000 
+
+Conductance Terms:
+GM                  1.296u        1.296u
+GDS                 4.036         4.036 
+GMBS                0.000         0.000 
+
+Current Terms:
+ID                  3.125u        3.125u
+
+Voltage Terms:
+VGS                -4.910        -4.910 
+VDS                 1.352u        1.352u
+VBS                 1.352u        1.352u
+VGB                -4.910        -4.910 
+VGD                -4.910        -4.910 
+VDB                 0.000         0.000 
+VTH                -2.499        -2.499 
+VDSAT              -2.411        -2.411 
+
+Power DC Terms:
+PD                  4.225p        4.225p
+PS                  0.000         0.000 
+
+DC Pin Currents:
+Ig                  0.000         0.000 
+Id                  3.125u        3.125u
+Is                 -3.125u       -3.125u
+Ib                  0.003f        0.003f
+
+Condition:
+State                  LIN           LIN
+
+Device Variables:
+m                   1.000         1.000 
+l                   0.000         0.000 
+w                   0.000         0.000 
+ad                  0.000         0.000 
+as                  0.000         0.000 
+pd                  0.000         0.000 
+ps                  0.000         0.000 
+nrd                 0.000         0.000 
+nrs                 0.000         0.000 
+nrb                 0.000         0.000 
+nrg                 0.000         0.000 
+vds                 0.000         0.000 
+vgs                 0.000         0.000 
+vbs                 0.000         0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:          N1.rhigh       N1.rlow      N2.rhigh       N2.rlow
+V                    4.910       -89.996m        4.910       -89.996m
+Power DC Terms:
+PD                  61.975m        1.136m       61.975m        1.136m
+
+DC Pin Currents:
+Ir                  12.622m      -12.622m       12.622m      -12.622m
+
+Device Variables:
+tc1                  0.000         0.000         0.000         0.000 
+tc2                  0.000         0.000         0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V3
+V                   5.000 
+Power DC Terms:
+PG                126.252m
+
+DC Pin Currents:
+ISource           -25.250m
+
+
